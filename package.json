@@ -1,11 +1,15 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "15.0.0-canary.54",
+    "@types/mdx": "^2.0.13",
     "next": "canary",
     "react": "19.0.0-rc-6f23540c7d-20240528",
     "react-dom": "19.0.0-rc-6f23540c7d-20240528"
